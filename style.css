@@ -109,6 +109,13 @@ div.content
     background-color: #ffffff;
 }
 
+div.content::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 div.Greetings
 {
     width: 525px;
@@ -371,6 +378,7 @@ div.bottom
     height:80px;
     width:100%;
     position:relative;
+    clear: both;
     background-image:
         url(images/common/bottom.jpg);
     background-repeat:no-repeat;
