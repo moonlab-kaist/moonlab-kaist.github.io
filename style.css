@@ -224,6 +224,59 @@ div.News
 	word-wrap:break-word;
 }
 
+div.Professor_Spotlight
+{
+    width: 940px;
+    margin: 20px 0 10px 0;
+    padding: 18px 20px;
+    border: 1px solid #d7e6ef;
+    background-color: #f7fbfd;
+    overflow: hidden;
+    box-sizing: border-box;
+    clear: both;
+}
+
+a.Professor_Spotlight_Link
+{
+    float: left;
+    margin-right: 18px;
+}
+
+img.Professor_Spotlight_Image
+{
+    display: block;
+    height: 140px;
+    width: auto;
+}
+
+div.Professor_Spotlight_Text
+{
+    overflow: hidden;
+    color: #303030;
+    font-family: Arial, Arial, sans-serif;
+    font-weight: 100;
+}
+
+a.Professor_Spotlight_Name
+{
+    color: #587D87;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Arial, sans-serif;
+}
+
+a.Professor_Spotlight_Name:hover
+{
+    text-decoration: underline;
+}
+
+p.Professor_Spotlight_Title
+{
+    margin: 8px 0 0 0;
+    font-size: 12pt;
+    font-family: Arial, Arial, sans-serif;
+}
 
 ul.News
 {
